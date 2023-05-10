@@ -11,7 +11,7 @@
 
   @include font-smoothing();
 
-  display: inline-grid;
+  display: grid;
 
   grid-auto-columns: 1fr;
 
