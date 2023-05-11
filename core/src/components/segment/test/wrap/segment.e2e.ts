@@ -95,7 +95,7 @@ configs().forEach(({ title, screenshot, config }) => {
 
       const segment = page.locator('ion-segment');
 
-      await expect(segment).toHaveScreenshot(screenshot(`segment-wrap-icon`));
+      await expect(segment).toHaveScreenshot(screenshot(`segment-wrap-icon-start`));
     });
     test('should not wrap short text in a toolbar', async ({ page }) => {
       await page.setContent(
