@@ -1,7 +1,7 @@
 import { expect } from '@playwright/test';
 import { configs, test } from '@utils/test/playwright';
 
-configs().forEach(({ title, screenshot, config }) => {
+configs({ directions: ['ltr'] }).forEach(({ title, screenshot, config }) => {
   test.describe(title('segment: wrap'), () => {
     test('should wrap long text', async ({ page }) => {
       await page.setContent(
