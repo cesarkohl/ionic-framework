@@ -22,9 +22,9 @@
   --indicator-transform: none;
   --transition: #{$segment-button-ios-transition};
   --padding-top: 0;
-  --padding-end: 7px;
+  --padding-end: 13px;
   --padding-bottom: 0;
-  --padding-start: 7px;
+  --padding-start: 13px;
 
   @include margin($segment-button-ios-margin, null, $segment-button-ios-margin, null);
 
